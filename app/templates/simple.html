@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div>
+    <div align="center">
+        <h1>Historical temperature for 120 years in Kharkiv</h1>
+    </div>
+    <div align="center">
+        <img src="static\weather.png" >
+    </div>
+    <div align="center">
+        {% for table in tables %}{{ table|safe }}{% endfor %}
+    </div>
+</div>
+{% endblock %}
+
