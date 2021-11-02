@@ -1,5 +1,5 @@
 from flask import render_template
-from flask_bootstrap import Bootstrap
+#from flask_bootstrap import Bootstrap
 from app import app
 import pandas as pd
 import matplotlib.pyplot as plt
