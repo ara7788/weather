@@ -1,1 +1,1 @@
-web: gunicorn weather:main
+web: gunicorn app:main

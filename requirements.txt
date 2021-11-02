@@ -2,7 +2,6 @@ aiohttp==3.7.4.post0
 asgiref==3.4.1
 async-timeout==3.0.1
 attrs==21.2.0
-awscli==1.19.15
 botocore==1.20.15
 Brotli==1.0.9
 certifi==2021.5.30
@@ -15,7 +14,6 @@ dash==1.21.0
 dash-core-components==1.17.1
 dash-html-components==1.1.4
 dash-table==4.12.0
-Django==3.2.6
 docutils==0.15.2
 dominate==2.6.0
 Flask==2.0.1
