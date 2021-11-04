@@ -16,6 +16,9 @@ fig, ax = plt.subplots()
 
 def neg_tick(x, pos):
     return '%.1f' % (-x if x else 0)
+    ''' The function is used to display negative values in reverse.
+    '''
+
 
 
 plt.bar(df['Year'].values, -df['Jan'].values, label=f'{cityname} - January Temperature, C')
