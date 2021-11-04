@@ -5,7 +5,7 @@ The application show histirical temperature in Kharkiv during 120 years
 ## Source of data
 The source of data in file weather.csv
 
-#Deploy
+## Deploy
 The application deployed on Heroku service
 
 ## List of library freezed in the project:
